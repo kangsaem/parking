@@ -21,11 +21,12 @@
     a {
       color: #e5e5e5;
       text-decoration: none;
-      font-size: clamp(1.1rem, 4vw, 1.8rem);
+      font-size: clamp(0.9rem, 2.5vw, 1.2rem);
       letter-spacing: 0.03em;
       opacity: 0.5;
       transition: color 0.4s ease, transform 0.5s ease, opacity 0.5s ease;
       display: inline-block;
+      cursor: pointer;
     }
     a:hover {
       color: #ffffff;
@@ -35,6 +36,6 @@
   </style>
 </head>
 <body>
-  <a href="mailto:kangyonz@gmail.com">kangyonz@gmail.com</a>
+  <a href="mailto:kangyonz@gmail.com" onclick="window.location.href='mailto:kangyonz@gmail.com'; return true;">kangyonz@gmail.com</a>
 </body>
 </html>
